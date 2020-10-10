@@ -1,15 +1,8 @@
 public class MergeSort {
     public static void main(String[] args) {
 
-//        int[] test = new int[10];
-//        sort(test, test);
-//        System.out.println("_______________");
-
         int[] a = {2, 1, 3, 2, 7, 8};
         int[] m = new int[a.length];
-//        int start = 0;
-//        int mid = 0;
-//        int end = a.length - 1;
         sort(a, m);
         for (int value : m) {
             System.out.println(value);
@@ -66,6 +59,5 @@ public class MergeSort {
             }
 
         }
-
     }
 }
